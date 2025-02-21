@@ -13,10 +13,10 @@ Notifications.requestPermissionsAsync();
 // Import Screens
 import Anxiety from './Screens/Anxiety';
 import HomeScreen from './Screens/HomeScreen';
-import ReliefExercises from './Screens/ReliefExercises';
-import Journal from './Screens/Journal';
-import  BreathingExercise  from './Screens/BreathingExerciseScreen';
-import MeditationTimer from './Screens/MeditationTimer';
+//import ReliefExercises from './Screens/ReliefExercises';
+//import Journal from './Screens/Journal';
+//import  BreathingExercise  from './Screens/BreathingExerciseScreen';
+//import MeditationTimer from './Screens/MeditationTimer';
 import Depression from './Screens/Depression';
 import FoodScreen from './Screens/FoodScreen';
 import AnxietyTips from './Screens/AnxietyTips';
@@ -24,8 +24,8 @@ import DepressionFood from './Screens/DepressionFood';
 import DepressionTips from './Screens/DepressionTips';
 import TimeManagement from './Screens/TimeManagement';
 import TimeManagementTips from './Screens/TimeManagementTips';
-import ToDoList from './Screens/ToDoList';
-import Pomodoro from './Screens/Pomodoro';
+//import ToDoList from './Screens/ToDoList';
+//import Pomodoro from './Screens/Pomodoro';
 import TimeManagementVideos from './Screens/TimeManagementVideos';
 import AnxietyManagementVideos from './Screens/AnxietyManagementVideos';
 import DepressionVideos from './Screens/DepressionVideos';
@@ -75,8 +75,7 @@ function BottomTabs() {
       })}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Relief" component={ReliefExercises} />
-      <Tab.Screen name="Journal" component={Journal} />
+  
       
       
     </Tab.Navigator>
@@ -109,15 +108,13 @@ export default function App() {
           <Stack.Screen name="Anxiety" component={Anxiety} />
           <Stack.Screen name="AnxietyTips" component={AnxietyTips} />
           <Stack.Screen name="Food" component={FoodScreen} />
-          <Stack.Screen name="BreathingExercise" component={BreathingExercise} />
-          <Stack.Screen name="MeditationTimer" component={MeditationTimer} />
+          
           <Stack.Screen name="Depression" component={Depression} />
           <Stack.Screen name="DepressionFood" component={DepressionFood} />
           <Stack.Screen name="DepressionTips" component={DepressionTips} />
           <Stack.Screen name="TimeManagement" component={TimeManagement} />
           <Stack.Screen name="TimeManagementTips" component={TimeManagementTips}/>
-          <Stack.Screen name="ToDoList" component={ToDoList}/>
-          <Stack.Screen name="Pomodoro" component={Pomodoro} />
+         
           <Stack.Screen name="TimeManagementVideos" component={TimeManagementVideos}/>
           <Stack.Screen name="AnxietyManagementVideos" component={AnxietyManagementVideos}/>
           <Stack.Screen name="DepressionVideos" component={DepressionVideos}/>
